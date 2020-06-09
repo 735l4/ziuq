@@ -3477,7 +3477,7 @@
                           Locate place in the map
                         </a>
                       </h3>
-                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">9thJjune 2020</time>
                       <p>
                           Choose from different game mode and increase your knowlege about different places of nepal and pin point the location of given places to get your knowledge on test.
                       </p>

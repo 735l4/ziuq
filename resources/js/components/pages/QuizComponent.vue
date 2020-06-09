@@ -15,7 +15,7 @@
                           Map Quiz
                         </a>
                       </h3>
-                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">9thJjune 2020</time>
                       <p>
                         Know the places of nepal and also test your knowledge about the map of nepal by pin pointing the location of the given places. 
                       </p>
@@ -42,7 +42,7 @@
                           History Quiz
                         </a>
                       </h3>
-                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">9thJjune 2020</time>
                       <p>
                         Get to know about the history of nepal and play some fun and challanging quiz on the history of nepal.
                       </p>
@@ -69,7 +69,7 @@
                           Political Quiz
                         </a>
                       </h3>
-                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">9thJjune 2020</time>
                       <p>
                          Here you will get the knowledge about the political affairs of nepal and also get the quiz challange on this topic.
                       </p>
