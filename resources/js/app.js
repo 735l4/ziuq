@@ -5,7 +5,6 @@
  */
 
 require('./bootstrap');
-// import store from './store';
 
 window.Vue = require('vue');
 require('./progressbar')
@@ -16,7 +15,6 @@ Vue.use(BootstrapVue)
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import App from './App.vue'
-import Login from './components/pages/auth/LoginComponent'
 
 import VueRouter from 'vue-router';
 Vue.use(VueRouter);
@@ -47,46 +45,14 @@ const router = new VueRouter(
    mode: 'history'
 
   })
-  function isLoggedIn(){
-    return store.state.auth.authenticated;
-  }
-  router.beforeEach((to, from, next) => {
-    if (to.matched.some(record => record.meta.requiresAuth)){
-      if(!isLoggedIn()){
-        next({
-          path: '/login',
-          query: { redirect: to.fullPath }
-        })
-      }
-      else{
-        next()
-      }
-    } else if (to.matched.some(record => record.meta.requiresVisitor)){
-      if(isLoggedIn()){
-        next({
-          name: 'home',
-          query: { redirect: to.fullPath }
-        })
-      }
-      else{
-        next()
-      }
-    } else {
-      next();
-    }
-  })
 Vue.component('App',App);
-Vue.component('Login',Login);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-// store.dispatch('auth/me').then(() => {
   const app = new Vue({
       el: '#app',
-      // store,
       router
   });
-// })
