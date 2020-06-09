@@ -84,7 +84,7 @@
                           Play the quiz
                         </a>
                       </h3>
-                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">1st January 2019</time>
+                      <time class="block mb-2 text-sm text-gray-600" datetime="2019-01-01">9th June 2020</time>
 
                     </div>
                   </div>
